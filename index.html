@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Mini Mario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="game-over" class="hidden">
+            <h1>Game Over</h1>
+            <button id="restart-button">Reiniciar Jogo</button>
+        </div>
+        <div class="score-board">
+            Pontos: <span id="score">0</span>
+        </div>
+    </div>
+    <audio id="jump-sound" src="jump-sound.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
